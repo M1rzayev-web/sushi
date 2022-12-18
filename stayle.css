@@ -1,28 +1,3 @@
-/* .box {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 100px 300px;
-    column-gap: 20px;
-    gap: 20px;
-    row-gap: 30px;
-    width: 1300px;
-    height: 500px;
-    background-color: antiquewhite;
-    border: 1px solid;
-    margin: 0 auto;
-}
-
-.box>div {
-    border: 1px solid;
-    text-align: center;
-    font-size: 30px;
-}
-
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-} */
-
 * {
     margin: 0 auto;
     box-sizing: border-box;
@@ -35,11 +10,17 @@
     border: 1px solid;
 }
 
+.header {
+    width: 1300px;
+    position: fixed;
+    background-color: white;
+}
+
 .nav-bar {
     width: 100%;
     height: 90px;
     display: flex;
-    justify-content: space-evenly;
+    text-align: center;
     border-bottom: 1px solid black;
 }
 
@@ -95,18 +76,664 @@
     width: 100%;
     height: 60px;
     display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .link-bar-a {
-    text-align: center;
     margin-top: 20px;
-    margin-left: 80px;
 }
 
 .link-bar-a a {
-    margin-right: 40px;
+    color: black;
+    margin-left: 15px;
+}
+
+.link-bar-a a:hover {
+    border-bottom: 1px solid #96D328;
+    color: #96D328;
+}
+
+.link-bar-a a:active {
+    border-bottom: 1px solid #b1d328;
+    color: #74a122;
 }
 
 .menyu {
-    margin-left: 200px;
+    margin-left: 50px;
+}
+
+.buy-icon {
+    margin-left: 10px;
+}
+
+main {}
+
+.Rolli {
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.Rolli {
+    background-image: url("./images/655839-PP2S9E-256\ 1.png");
+}
+
+.Rolli-text {
+    margin-top: 100px;
+    margin-left: 250px;
+    align-items: center;
+    width: 500px;
+    height: 65px;
+}
+
+.Rolli-text h3 {
+    width: 500px;
+    font-size: 48px;
+}
+
+.Rolli-text p {
+    width: 500px;
+}
+
+.button-1 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.button-1 input {
+    margin-left: 500px;
+    border: 1px solid rgb(164, 161, 161);
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn2 {
+    margin-right: 550px;
+    border-radius: 5px;
+    border: none;
+    background-color: #96D328;
+}
+
+.menyu-bar {
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid; */
+}
+
+.menyu-list {
+    display: flex;
+}
+
+.menyu-list h3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 190px;
+    font-size: 32px;
+    color: black;
+}
+
+.menyu-list a:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.menyu-list a:active {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    color: black;
+}
+
+.menyu-item1 {
+    margin-top: 15px;
+    width: 614px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/Rectangle_2-removebg-preview\ 1.png");
+}
+
+.menyu-item2 {
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    margin-top: 15px;
+    background-image: url("./images/Rectangle_2-removebg-preview\ \(1\)\ 1.png");
+}
+
+.menyu-item3 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/Rectangle_2-removebg-preview\ \(2\)\ 1.png");
+}
+
+.menyu-item4 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/Rectangle\ 2.163.png");
+}
+
+.menyu-item5 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/Rectangle\ 2.180.png");
+}
+
+.menyu-item6 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/Rectangle\ 2.163\ \(1\).png");
+}
+
+.menyu-item7 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/Rectangle\ 2.180\ \(1\).png");
+}
+
+.menyu-item8 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/taom.png");
+}
+
+.menyu-item9 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/tovuq.png");
+}
+
+.menyu-item10 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/disert.png");
+}
+
+.menyu-item11 {
+    margin-top: 15px;
+    width: 300px;
+    /* border: 1px solid; */
+    height: 310px;
+    background-image: url("./images/shirinlik.png");
+}
+
+.Rolli2 {
+    width: 100%;
+    height: 300px;
+}
+
+.Rolli2 {
+    background-image: url("./images/655839-PP2S9E-256\ 2.png");
+}
+
+.Rolli-text2 {
+    width: 500px;
+    height: 65px;
+}
+
+.Rolli-text2 h3 {
+    width: 500px;
+    font-size: 48px;
+}
+
+.Rolli-text2 p {
+    width: 500px;
+}
+
+.yangiliklar {
+    width: 100%;
+    height: 620px;
+}
+
+.yangilik-list {
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.yangilik-item {
+    width: 290px;
+    height: 550px;
+    /* border: 1px solid; */
+}
+
+.item-new {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: #96D328;
+    border-radius: 5px;
+}
+
+.item-aksiya {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.iconk-barg {
+    margin-left: 170px;
+}
+
+.yangilik-text {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.yangilik-p {
+    margin-top: 15px;
+    color: #828282;
+}
+
+.yangilik-item input {
+    width: 80px;
+    height: 20px;
+}
+
+.hajmi {
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.hajmi-26 {
+    width: 50%;
+    border-radius: 5px;
+    color: black;
+}
+
+.hajmi-26:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #96D328;
+}
+
+.hajmi-36 {
+    text-align: center;
+    margin-top: 6px;
+    color: black;
+}
+
+.hajmi-36:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #96D328;
+    border-radius: 5px;
+}
+
+.maxsulotlar {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    display: flex;
+}
+
+.permezan {
+    width: 49%;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.permezan:hover {
+    border: 1px solid #96D328;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.permezan p {
+    margin-top: 7px;
+}
+
+.perchik {
+    width: 49%;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.perchik:hover {
+    border: 1px solid #96D328;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.perchik p {
+    margin-top: 7px;
+}
+
+.narxi {
+    margin-top: 10px;
+    display: flex;
+}
+
+.narxi-1 {
+    font-size: 22px;
+}
+
+.narxi-2 {
+    color: grey;
+    font-size: 16px;
+    text-decoration-line: line-through;
+}
+
+.soni-ayirish {
+    width: 25px;
+    height: 25px;
+    background-color: #d8d4d4;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.soni-qoshish {
+    width: 25px;
+    height: 25px;
+    background-color: #96D328;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
+
+/* eng kop sotilgan */
+
+.eng-kop-sotilgan {
+    width: 100%;
+    height: 520px;
+}
+
+.eng-kop-sotilgan-list {
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.eng-kop-sotilgan-item {
+    width: 290px;
+    height: 550px;
+    /* border: 1px solid; */
+}
+
+.item-new {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: #96D328;
+    border-radius: 5px;
+}
+
+.item-aksiya {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.iconk-baliq {
+    margin-left: 170px;
+}
+
+.eng-kop-sotilgan-text {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.eng-kop-sotilgan-p {
+    margin-top: 15px;
+    color: #828282;
+}
+
+
+/* aksiya */
+
+.aksiya {
+    width: 100%;
+    height: 520px;
+}
+
+.aksiya-list {
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.aksiya-item {
+    width: 290px;
+    height: 550px;
+    /* border: 1px solid; */
+}
+
+.item-new {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: #96D328;
+    border-radius: 5px;
+}
+
+.item-aksiya {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.iconk-baliq {
+    margin-left: 170px;
+}
+
+.aksiya-text {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.aksiya-p {
+    margin-top: 15px;
+    color: #828282;
+}
+
+
+/* achchiq */
+
+.achchiq {
+    width: 100%;
+    height: 650px;
+}
+
+.achchiq-list {
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.achchiq-item {
+    width: 290px;
+    height: 550px;
+    /* border: 1px solid; */
+}
+
+.item-new {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: #96D328;
+    border-radius: 5px;
+}
+
+.item-aksiya {
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.achchiq-text {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.achchiq-p {
+    margin-top: 15px;
+    color: #828282;
+}
+
+.achchiq-item input {
+    width: 80px;
+    height: 20px;
+}
+
+.hajmi {
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.hajmi-26 {
+    width: 50%;
+    border-radius: 5px;
+    color: #828282;
+}
+
+.hajmi-26:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #96D328;
+}
+
+.hajmi-36 {
+    text-align: center;
+    margin-top: 6px;
+    color: #828282;
+}
+
+.hajmi-36:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #96D328;
+    border-radius: 5px;
+}
+
+.maxsulotlar-bum {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    display: flex;
+}
+
+.kunjut {
+    width: 49%;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.kunjut p {
+    margin-top: 7px;
+    font-size: 12px;
+    color: #828282;
+}
+
+.kunjut:hover {
+    border: 1px solid #96D328;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.permezan {
+    width: 49%;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.permezan p {
+    margin-top: 7px solid;
+    font-size: 13px;
+    color: #828282;
+}
+
+.permezan:hover {
+    border: 1px solid #96D328;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.xolopenyu {
+    width: 49%;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.xolopenyu p {
+    margin-top: 7px solid;
+    font-size: 12px;
+    color: #828282;
+}
+
+.xolopenyu:hover {
+    border: 1px solid #96D328;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.ingrident {
+    width: 49%;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ingrident p {
+    margin-top: 7px solid;
+    font-size: 12px;
+    color: #828282;
+}
+
+.ingrident:hover {
+    border: 1px solid #96D328;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.narxi {
+    margin-top: 10px;
+    display: flex;
+}
+
+.narxi-1 {
+    font-size: 22px;
+}
+
+.narxi-2 {
+    color: grey;
+    font-size: 16px;
+    text-decoration-line: line-through;
 }
