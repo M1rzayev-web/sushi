@@ -7,12 +7,12 @@
 
 .wrapper {
     width: 1300px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .header {
     width: 1300px;
-    position: fixed;
+    /* position: fixed; */
     background-color: white;
 }
 
@@ -111,7 +111,7 @@ main {}
 .Rolli {
     width: 100%;
     height: 400px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 .Rolli {
@@ -119,7 +119,7 @@ main {}
 }
 
 .Rolli-text {
-    margin-top: 100px;
+    margin-top: 3px;
     margin-left: 250px;
     align-items: center;
     width: 500px;
@@ -741,18 +741,15 @@ main {}
 .oxiri {
     width: 1300px;
     height: 245px;
-    border: 1px solid;
 }
 
 .oxiri-list {
     display: flex;
     /* margin-top: 60px; */
-    border: 1px solid;
 }
 
 .oxiri-item {
     width: 25%;
-    border: 1px solid;
 }
 
 .oxiri-item a {
